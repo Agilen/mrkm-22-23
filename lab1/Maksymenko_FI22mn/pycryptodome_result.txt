@@ -1,0 +1,84 @@
+______________________________AES-CBC-256 testing for 3 seconds.______________________________
+iterations = 1186757, block_size = 16 bytes
+totaling to 6.329370666666667 MB/s 
+______________________________AES-CBC-256 testing for 3 seconds.______________________________
+iterations = 1139086, block_size = 64 bytes
+totaling to 24.300501333333333 MB/s 
+______________________________AES-CBC-256 testing for 3 seconds.______________________________
+iterations = 957135, block_size = 256 bytes
+totaling to 81.67551999999999 MB/s 
+______________________________AES-CBC-256 testing for 3 seconds.______________________________
+iterations = 604474, block_size = 1024 bytes
+totaling to 206.32712533333336 MB/s 
+______________________________AES-CBC-256 testing for 3 seconds.______________________________
+iterations = 140296, block_size = 8192 bytes
+totaling to 383.10161066666666 MB/s 
+______________________________AES-CBC-256 testing for 3 seconds.______________________________
+iterations = 74378, block_size = 16384 bytes
+totaling to 406.2030506666667 MB/s 
+______________________________SHA-256 testing for 3 seconds.______________________________
+iterations = 365164, block_size = 16 bytes
+totaling to 1.9475413333333333 MB/s 
+______________________________SHA-256 testing for 3 seconds.______________________________
+iterations = 355079, block_size = 64 bytes
+totaling to 7.575018666666668 MB/s 
+______________________________SHA-256 testing for 3 seconds.______________________________
+iterations = 328439, block_size = 256 bytes
+totaling to 28.02679466666667 MB/s 
+______________________________SHA-256 testing for 3 seconds.______________________________
+iterations = 234502, block_size = 1024 bytes
+totaling to 80.04334933333334 MB/s 
+______________________________SHA-256 testing for 3 seconds.______________________________
+iterations = 68849, block_size = 8192 bytes
+totaling to 188.00366933333336 MB/s 
+______________________________SHA-256 testing for 3 seconds.______________________________
+iterations = 37954, block_size = 16384 bytes
+totaling to 207.27944533333334 MB/s 
+______________________________SHA-512 testing for 3 seconds.______________________________
+iterations = 469300, block_size = 16 bytes
+totaling to 2.5029333333333335 MB/s 
+______________________________SHA-512 testing for 3 seconds.______________________________
+iterations = 467230, block_size = 64 bytes
+totaling to 9.967573333333334 MB/s 
+______________________________SHA-512 testing for 3 seconds.______________________________
+iterations = 413649, block_size = 256 bytes
+totaling to 35.298048 MB/s 
+______________________________SHA-512 testing for 3 seconds.______________________________
+iterations = 305630, block_size = 1024 bytes
+totaling to 104.32170666666667 MB/s 
+______________________________SHA-512 testing for 3 seconds.______________________________
+iterations = 92289, block_size = 8192 bytes
+totaling to 252.010496 MB/s 
+______________________________SHA-512 testing for 3 seconds.______________________________
+iterations = 51172, block_size = 16384 bytes
+totaling to 279.4673493333333 MB/s 
+______________________________RSA 1024 sign testing for 10 seconds.______________________________
+iterations = 10730, block_size = 1024 bits
+totaling to 1073.0 signs/s 
+0.0009319664492078285 seconds / sign 
+0.9319664492078285 milliseconds / sign 
+______________________________RSA 2048 sign testing for 10 seconds.______________________________
+iterations = 4276, block_size = 2048 bits
+totaling to 427.6 signs/s 
+0.0023386342376052385 seconds / sign 
+2.3386342376052385 milliseconds / sign 
+______________________________RSA 4096 sign testing for 10 seconds.______________________________
+iterations = 1079, block_size = 4096 bits
+totaling to 107.9 signs/s 
+0.009267840593141797 seconds / sign 
+9.267840593141797 milliseconds / sign 
+______________________________RSA 1024 verify testing for 10 seconds.______________________________
+iterations = 30633, block_size = 1024 bits
+totaling to 3063.3 verifications/s 
+0.00032644533672836483 seconds / verification 
+0.32644533672836484 milliseconds / verification 
+______________________________RSA 2048 verify testing for 10 seconds.______________________________
+iterations = 17168, block_size = 2048 bits
+totaling to 1716.8 verifications/s 
+0.0005824790307548928 seconds / verification 
+0.5824790307548928 milliseconds / verification 
+______________________________RSA 4096 verify testing for 10 seconds.______________________________
+iterations = 8624, block_size = 4096 bits
+totaling to 862.4 verifications/s 
+0.0011595547309833025 seconds / verification 
+1.1595547309833025 milliseconds / verification 

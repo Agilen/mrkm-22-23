@@ -1,0 +1,18 @@
+version: 3.0.2
+built on: Thu Oct 27 17:06:56 2022 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-WsPfAX/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0xfed83203078bffff:0x209c01a9
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha256           73531.66k   247169.62k   670656.85k  1174323.54k  1500026.20k  1530669.74k
+sha512           33103.54k   130430.27k   274804.57k   448752.98k   542758.23k   556118.99k
+aes-256-cbc     734919.26k   820257.37k   846749.18k   855882.83k   858828.46k   851066.88k
+                  sign    verify    sign/s verify/s
+rsa  512 bits 0.000047s 0.000003s  21460.9 338380.9
+rsa 1024 bits 0.000130s 0.000008s   7712.0 126341.5
+rsa 2048 bits 0.000892s 0.000026s   1120.5  38733.2
+rsa 3072 bits 0.002747s 0.000055s    364.0  18087.2
+rsa 4096 bits 0.006285s 0.000096s    159.1  10369.1
+rsa 7680 bits 0.056292s 0.000328s     17.8   3049.7
+rsa 15360 bits 0.302059s 0.001285s      3.3    778.0
